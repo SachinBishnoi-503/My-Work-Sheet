@@ -11,7 +11,14 @@
 }
 
 .max-width-458 {
+    max-width: 458px;
     border: 2px solid grey;
+}
+
+.box-shadw:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 6px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 27px;
+    transition: all 400ms linear;
 }
 
 .mt-24 {
