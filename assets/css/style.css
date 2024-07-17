@@ -1,0 +1,112 @@
+.my-work-sheet {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 72px;
+    color: black;
+}
+
+.p-20 {
+    padding: 20px 20px 20px 20px;
+}
+
+.max-width-458 {
+    max-width: 458px;
+    height: auto;
+    border: 2px solid grey;
+}
+
+.mt-24 {
+    margin-top: 24px !important;
+}
+
+.tab-button:hover {
+    background-color: red;
+    color: white;
+    transition: all 350ms linear;
+}
+
+.tab-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    max-width: 134px;
+    padding: 11px 20px 11px 28px;
+    border-radius: 57px;
+}
+
+/* monthly-pages */
+.january-topics {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+
+.one:hover {
+    background-color: red;
+    color: white;
+    transition: all 350ms linear;
+}
+
+.one {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solana-business {
+    max-width: 250px;
+    height: 188px;
+    border-radius: 23px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.cloop {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: black;
+}
+
+.date-of-submission {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: black;
+    opacity: 60%;
+    font-weight: 400;
+    line-height: 36px;
+    color: grey;
+}
+
+/*  */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-button.active {
+    background-color: red;
+    color: white;
+}
