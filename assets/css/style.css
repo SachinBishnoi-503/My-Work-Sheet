@@ -11,8 +11,6 @@
 }
 
 .max-width-458 {
-    max-width: 458px;
-    height: auto;
     border: 2px solid grey;
 }
 
@@ -20,23 +18,23 @@
     margin-top: 24px !important;
 }
 
-.tab-button:hover {
-    background-color: red;
-    color: white;
-    transition: all 350ms linear;
+.tab-button {
+    padding: 17px 40px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #F53838;
+    color: #ffffff;
+    border: 1px solid #F53838;
+    transition: 0.3s linear;
+    border-radius: 10px;
 }
 
-.tab-button {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    border: 2px solid red;
-    background-color: white;
-    color: red;
-    max-width: 134px;
-    padding: 11px 20px 11px 28px;
-    border-radius: 57px;
+.tab-button:hover {
+    background-color: #ffffff;
+    color: #F53838;
+    border: 1px solid #F53838;
 }
 
 /* monthly-pages */
